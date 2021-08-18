@@ -1,0 +1,25 @@
+@media (max-width: 500px){
+    .cabecalho .logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav li{
+        display: block;                
+    }
+
+    .cabecalho nav li a{
+        width: 100%;
+        display: block;
+    }    
+
+    .painel h2{
+        font-size: 1em;
+    }
+}
