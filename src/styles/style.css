@@ -1,6 +1,14 @@
+html{
+    /* 62.5% de 16px é igual a 10px */
+    /* então 10px passa a ser 1rem */
+    font-size: 62.5%;
+}
+
 body{
     max-width: 1440px;
     margin: 0 auto;
+    /* 1.6rem equivale a 16px, mas só por que no html tem a regra do 62.5% */
+    font-size: 1.6rem;
 }
 
 .cabecalho{
@@ -83,8 +91,30 @@ body{
     width: 445px;
 }
 
-.ladrilho img{
+.ladrilho div{
     float: left;
+}
+
+.ladrilho .grande{
+    background: url('../images/4.jpg') no-repeat center center;
+    width: 50%;
+    height: 600px;
+}
+
+.ladrilho .media{
+    background: url('../images/1.jpg') no-repeat center center;
+    width: 50%;
+    height: 300px;
+}
+
+.ladrilho .pequena{
+    background: url('../images/3.jpg') no-repeat center center;
+    width: 25%;
+    height: 300px;
+}
+
+.ladrilho .pequena.grao{
+    background: url('../images/2.jpg') no-repeat center center;
 }
 
 .contato{
@@ -110,13 +140,6 @@ body{
     top: 30%;
     left: 50%;
 }
-/* 
-.overlay{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.15;
-} */
 
 .rodape{
     background: url(../images/fundo-rodape.jpg) center center no-repeat;
